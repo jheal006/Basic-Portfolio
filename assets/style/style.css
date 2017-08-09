@@ -1,0 +1,175 @@
+/*CSS*/
+/* =================================
+  Base Styles
+==================================== */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+  position: relative;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	line-height: 1.6;
+  color: #3a3a3a;
+  background-color: #EEEEEE;
+  margin: 0;
+}
+
+body::after {
+  content: '';
+  display: block;
+  height: 50px; /* Set same as footer's height */
+}
+
+p {
+	font-size: .95em;
+}
+
+ol,
+ul {
+ margin: 0;
+ padding: 0;
+ list-style: none;
+}
+
+h1, h2, h3{
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+h2,
+h3,
+a {
+	color: #999999;
+}
+
+h2,
+h3 {
+	margin-top: 0;
+  color: #4AAAA5;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* =================================
+  Base Layout Styles
+==================================== */
+
+.container {
+  width: 80%;
+  max-width: 1150px;
+  margin: 0 auto;
+  /*background: white;*/
+}
+
+.container:nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+
+/* ---- Navigation ---- */
+
+.main-nav {
+  float: right;
+  height: auto;
+  margin-top: 24px;
+}
+
+.main-header .name {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.name {
+  padding: 20px 20px;
+  letter-spacing: -0.8px;
+}
+
+.name,
+.main-nav,
+.main-nav li {
+  display: inline-block;
+}
+
+.name,
+.main-nav li {
+  text-align: center;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.name a
+.main-nav a {
+  padding: 10px 15px;
+  display: block;
+}
+.main-header {
+	background: #fff;
+	margin-bottom: none;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+h1 {
+  color: #fff;
+  background-color: #4AAAA5;
+}
+
+.main-nav li {
+  margin-left: 10px;
+}
+
+
+/* ---- Columns ---- */
+
+.profile_pic {
+  max-width: 200px;
+  max-height: 200px;
+  float: left;
+  padding: 10px 10px 10px 0;
+}
+
+.icons {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+
+.col {
+  width: 50%;
+  margin-right: -4px;
+  vertical-align: top;
+  background-color: lightgrey;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding: 20px;
+}
+
+.primary {
+    flex-basis: 65%;
+    height: inherit;
+    margin-bottom: 50px;
+}
+
+
+.secondary {
+  flex-basis: 30%;
+  text-align: center;
+  column-width: 270px;
+  height: 165px;
+}
+
+/* ---- Footer ---- */
+
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  font-size: 11px;
+  color: #CCCCCC;
+  text-align: center;
+  border-top: 8px solid #4AAAA5;
+  background-color: #666666;
+  padding: 30px;
+}
