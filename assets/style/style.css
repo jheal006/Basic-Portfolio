@@ -40,7 +40,7 @@ h1, h2, h3{
 h2,
 h3,
 a {
-	color: #999999;
+	color: #777777;
 }
 
 h2,
@@ -52,6 +52,9 @@ h3 {
 a {
 	text-decoration: none;
 }
+
+
+
 
 /* =================================
   Base Layout Styles
@@ -120,6 +123,14 @@ h1 {
   margin-left: 10px;
 }
 
+.main-nav li:nth-child(2),
+.main-nav li:nth-child(3) {
+  border-left: 1px solid #777777;
+  padding-left: 5px;
+  margin-left: 2px;
+}
+
+
 
 /* ---- Columns ---- */
 
@@ -167,7 +178,7 @@ footer {
   position: fixed;
   bottom: 0;
   font-size: 11px;
-  color: #CCCCCC;
+  color: #777777;
   text-align: center;
   border-top: 8px solid #4AAAA5;
   background-color: #666666;
