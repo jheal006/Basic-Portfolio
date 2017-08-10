@@ -90,6 +90,10 @@ a {
   margin-top: 24px;
 }
 
+.main-nav a {
+	padding-bottom: 2px;
+}
+
 .main-header .name {
   margin-top: 0;
   margin-bottom: 0;
@@ -117,6 +121,13 @@ a {
   padding: 10px 15px;
   display: block;
 }
+
+.main-nav a:hover {
+	cursor: pointer;
+	border-bottom: 1px solid #4AAAA5;
+}
+
+
 .main-header {
 	background: #fff;
 	margin-bottom: none;
@@ -158,6 +169,11 @@ h1 {
 .icons {
   max-width: 50px;
   max-height: 50px;
+	padding-bottom: 2px;
+}
+
+.icons:hover {
+	border-bottom: solid 2px #4AAAA5;
 }
 
 
