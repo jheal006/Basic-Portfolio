@@ -11,7 +11,7 @@ body {
   position: relative;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	line-height: 1.6;
-  color: #3a3a3a;
+  color: #777777;
   background-color: #EEEEEE;
   margin: 0;
 }
@@ -23,7 +23,7 @@ body::after {
 }
 
 p {
-	font-size: .95em;
+	font-size: 1.25em;
 }
 
 ol,
@@ -47,6 +47,15 @@ h2,
 h3 {
 	margin-top: 0;
   color: #4AAAA5;
+}
+
+h2 {
+	border-bottom: 2px solid #dddddd;
+	padding-bottom: 15px;
+}
+
+h3 {
+	margin-bottom: 10px;
 }
 
 a {
@@ -125,7 +134,7 @@ h1 {
 
 .main-nav li:nth-child(2),
 .main-nav li:nth-child(3) {
-  border-left: 1px solid #777777;
+  border-left: 1px solid #cccccc;
   padding-left: 5px;
   margin-left: 2px;
 }
@@ -134,11 +143,16 @@ h1 {
 
 /* ---- Columns ---- */
 
+.primary p {
+		margin-top: 20px;
+}
+
 .profile_pic {
   max-width: 200px;
   max-height: 200px;
   float: left;
-  padding: 10px 10px 10px 0;
+	margin-top: 18px;
+  padding: 10px 20px 1px 0;
 }
 
 .icons {
@@ -151,7 +165,7 @@ h1 {
   width: 50%;
   margin-right: -4px;
   vertical-align: top;
-  background-color: lightgrey;
+  background-color: #fff;
   padding-left: 1em;
   padding-right: 1em;
   padding: 20px;
@@ -170,6 +184,102 @@ h1 {
   column-width: 270px;
   height: 165px;
 }
+
+.icon-holder {
+	display: inline-block;
+	border-top: 2px solid #dddddd;
+	padding-top: 15px;
+}
+
+/* ---- Form Elements ---- */
+
+#name,
+#mail
+ {
+	width: 100%;
+	height: 30px;
+	border: 1px solid #dddddd;
+}
+
+#message {
+	width: 100%;
+	border: 1px solid #dddddd;
+	height: 225px;
+}
+
+#submit {
+	background-color: #4aaaa5;
+	color: #fff;
+	border: none;
+	padding: 10px 30px;
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+/* ---- Portfolio Images ---- */
+
+.portfolio-header {
+		margin: 0 40px;
+}
+
+.portfolio-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+	text-align: center;
+}
+
+.portfolio-wrapper p {
+	color: #fff;
+	background-color: #4AAAA5;
+	padding: 10px 0;
+	margin-top: 140px;
+}
+
+.cars,
+.planes,
+.movies,
+.sports,
+.bands,
+.games
+{
+	margin: 40px;
+	width: 200px;
+	height: 200px;
+	flex-grow: 1;
+}
+
+.cars {
+	background-image: url("../images/challenger.jpg");
+}
+
+.planes {
+	background-image: url("../images/109.jpg");
+}
+
+.movies {
+	background-image: url("../images/cliffhanger.jpg");
+}
+
+.sports {
+	background-image: url("../images/klesko.jpg")
+}
+
+.bands {
+	background-image: url("../images/roxymusic.jpg");
+}
+
+.games {
+	background-image: url("../images/mwo.jpg");
+}
+
+
+
+
+
+
+
 
 /* ---- Footer ---- */
 
