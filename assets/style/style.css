@@ -230,7 +230,7 @@ textarea:focus {
 	width: 100%;
 	border: 1px solid #dddddd;
 	height: 225px;
-	padding: 1px 3px;
+	padding: 3px 3px;
 }
 
 #submit {
@@ -240,6 +240,10 @@ textarea:focus {
 	padding: 10px 30px;
 	font-size: 18px;
 	margin-top: 10px;
+}
+
+#submit:hover {
+	background-color: rgba(74, 170, 165, 0.4)
 }
 
 /* ---- Portfolio Images ---- */
