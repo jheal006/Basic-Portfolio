@@ -209,18 +209,28 @@ h1 {
 
 /* ---- Form Elements ---- */
 
+input:focus {
+	outline: 1px solid #4aaaa5;
+}
+
+textarea:focus {
+	outline: 1px solid #4aaaa5;
+}
+
 #name,
 #mail
  {
 	width: 100%;
 	height: 30px;
 	border: 1px solid #dddddd;
+	padding: 3px 3px;
 }
 
 #message {
 	width: 100%;
 	border: 1px solid #dddddd;
 	height: 225px;
+	padding: 1px 3px;
 }
 
 #submit {
@@ -260,6 +270,7 @@ h1 {
 .bands,
 .games
 {
+	background-repeat: no-repeat;
 	margin: 40px;
 	width: 200px;
 	height: 200px;
@@ -267,27 +278,27 @@ h1 {
 }
 
 .cars {
-	background-image: url("../images/challenger.jpg");
+	background-image: url("../images/challengersm.png");
 }
 
 .planes {
-	background-image: url("../images/109.jpg");
+	background-image: url("../images/109sm.jpg");
 }
 
 .movies {
-	background-image: url("../images/cliffhanger.jpg");
+	background-image: url("../images/cliffhangersm.jpg");
 }
 
 .sports {
-	background-image: url("../images/klesko.jpg")
+	background-image: url("../images/kleskosm.jpg")
 }
 
 .bands {
-	background-image: url("../images/roxymusic.jpg");
+	background-image: url("../images/roxymusicsm.jpg");
 }
 
 .games {
-	background-image: url("../images/mwo.jpg");
+	background-image: url("../images/mwosm.jpg");
 }
 
 
